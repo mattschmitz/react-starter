@@ -15,4 +15,10 @@ module.exports = {
       }
     ]
   },
+  devtool: "cheap-eval-source-map"
+    //"cheap-module-eval-source-map" - more detailed
+    //"eval-source-map" -even more detailed
+    //see: https://webpack.github.io/docs/configuration.html#devtool
+
+  //for larger projects: https://webpack.js.org/guides/hot-module-replacement/
 }
